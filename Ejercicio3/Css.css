@@ -1,0 +1,36 @@
+/*ESTILOS IMAGENES EJEMPLO*/
+.caja_contenido{
+    margin:0px 20px;
+    border: 2px solid red;
+    width: auto;
+    height: 900px;
+    padding: 10px;
+    }
+    .caja_contenido div{
+    border: 2px solid black;
+    width: 48%;
+    height: 50%;
+    display: inline-block;
+    color: white;
+    }
+    .caja_contenido .imagen_1 img {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: green;
+    }
+
+    .caja_contenido .imagen_2 img {
+    height: 100%;
+    width: 100%;
+    float: right;
+    background-color: blue;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .caja_contenido div{
+            height: 100%;
+            width: 100%;      
+        display: block;
+        }
+    }
